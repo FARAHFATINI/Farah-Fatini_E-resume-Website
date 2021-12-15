@@ -1,0 +1,115 @@
+/* Style the header */
+header {
+    background-color:black;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+  }
+  
+  * {box-sizing: border-box;}
+  
+  /* Style the navigation menu */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 16.6%; /* Six equal-width links. If you have four links, use 50%, and 33.33% for two links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+  
+  /* Add a background color on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  /* Style the current/active link */
+  .navbar a.active {
+    background-color: #04AA6D;
+  }
+  
+  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+  }
+
+  body, html {
+    height: 155%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* Full height */
+    height: 50%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Images used */
+  .img1 { background-image: url("GALLERY PICTURE/BUKU.jpg"); }
+  .img2 { background-image: url("GALLERY PICTURE/CAMERON.jpg"); }
+  .img3 { background-image: url("GALLERY PICTURE/FLAT.jpg");}
+  .img4 { background-image: url("GALLERY PICTURE/KARI.jpg"); }
+  .img5 { background-image: url("GALLERY PICTURE/LAMPU.jpg"); }
+  .img6 { background-image: url("GALLERY PICTURE/LANGIT.jpg"); }
+  .img7 { background-image: url("GALLERY PICTURE/MALAM.jpg"); }
+  .img8 { background-image: url("GALLERY PICTURE/ORANG.jpg"); }
+  .img9 { background-image: url("GALLERY PICTURE/TADIKA.jpg"); }
+  .img10 { background-image: url("GALLERY PICTURE/SUNSET.jpg"); }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+  }
+  
+  * {box-sizing: border-box}
+  body {font-family: Arial, Helvetica, sans-serif;}
+  
+  .navbar {
+    width: 100%;
+    background-color: #444;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 16.6%; /* six links of equal widths */
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
